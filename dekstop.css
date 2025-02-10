@@ -1,14 +1,33 @@
 @media screen and (min-width: 993px) {
-    .categoria div span{
+
+    .contenuto {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .categoria div span {
         font-size: 3rem;
     }
 
-    .container{
+    .container {
         flex-direction: row;
-        
+        max-width: 1350px;
     }
 
-    .secondo-box ul{
+    .primo-box {
+        width: 70%;
+    }
+
+    .secondo-box {
+        width: 30%;
+    }
+
+    .secondo-box ul {
         display: block;
+    }
+
+    .social span{
+        display: contents;
+        font-weight: bolder;
     }
 }

@@ -1,31 +1,36 @@
 @media screen and (min-width: 769px) {
-    h1{
+    h1 {
         text-align: left;
     }
 
-    main{
+    main {
         padding: 60px 60px 110px 60px;
     }
 
-    .categoria div span{
+    .categoria div span {
         font-size: 1.5rem;
     }
 
-    .categoria div span + span{
+    .categoria div span+span {
         display: inline;
     }
 
-.secondo-box{
-    padding-bottom: 0px;
-}
+    .secondo-box {
+        padding-bottom: 0px;
+    }
 
-    .secondo-box ul{
+    .secondo-box ul {
         display: flex;
         flex-wrap: wrap;
         column-gap: 130px;
     }
 
-    .secondo-box ul li{
+    .secondo-box ul li {
         padding-bottom: 20px;
+    }
+
+    .social{
+        padding: 10px 50px;
+        border-radius: 25px;
     }
 }
