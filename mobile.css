@@ -29,7 +29,6 @@ main{
 }
 
 .contenuto{
-    max-width: 590px;
     margin: 0 auto;
 }
 
@@ -42,7 +41,7 @@ main{
 
 .categoria div span{
     color: #4e3969;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1rem;
 }
 
