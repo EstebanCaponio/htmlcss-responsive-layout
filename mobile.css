@@ -1,5 +1,25 @@
+/* MOBILE FIRST  */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+}
+
+h1{
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: #ff9614;
+    text-shadow: 1px 1px 2px gray;
+    text-align: center;
+}
+
+main{
+    background-color: #f6f5f3;
 }
