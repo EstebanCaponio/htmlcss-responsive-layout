@@ -3,12 +3,9 @@
         font-size: 2rem;
     }
 
-    .contenuto{
-        max-width: 1350px;
-    }
-
     .container{
         flex-direction: row;
+        max-width: 1800px;
     }
 
     .secondo-box ul{
