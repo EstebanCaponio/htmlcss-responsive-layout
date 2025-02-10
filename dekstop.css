@@ -30,4 +30,19 @@
         display: contents;
         font-weight: bolder;
     }
+
+    /* footer */
+
+    .container-foot{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .boxf-uno{
+        text-align: left;
+    }
+
+    .boxf-due{
+        align-items: center;
+    }
 }

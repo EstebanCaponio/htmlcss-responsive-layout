@@ -33,4 +33,16 @@
         padding: 10px 50px;
         border-radius: 25px;
     }
+
+    /* banner pubblicitario */
+
+.banner{
+    display: block;
+}
+}
+
+/* presentazione */
+.tiramisù{
+    float: left;
+    padding-right: 10px;
 }

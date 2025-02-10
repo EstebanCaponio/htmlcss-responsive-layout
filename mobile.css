@@ -32,6 +32,11 @@ main{
     margin: 0 auto;
 }
 
+.sezione{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 .categoria h2{
     font-size: 9px;
     color: #999999;
@@ -110,6 +115,7 @@ a{
 
 .social span{
     display: none;
+    color: black;
 }
 
 .fa-facebook{
@@ -130,4 +136,81 @@ a{
 
 .fa-youtube{
     color: #e62222;
+}
+
+/* banner pubblicitario */
+
+.banner{
+    width: 100%;
+    display: none;
+    margin-bottom: 30px;
+}
+
+/* presentazione */
+h4{
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+hr{
+    max-width: 100px;
+    height: 2px;
+    background-color: #f7972e;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.tiramisù{
+    display: block;
+    max-width: 375px;
+    margin: 0 auto 20px auto;
+    float: none;
+}
+
+p{
+    text-align: justify;
+    font-weight: lighter;
+    margin-bottom: 70px;
+}
+
+/* footer */
+footer{
+    background-color: #7c69a4;
+    color: white;
+    padding: 35px 25px;
+}
+
+.container-foot{
+    margin: 0 auto;
+}
+
+.boxf-uno{
+    text-align: center;
+}
+ 
+h5{
+    margin-bottom: 10px;
+}
+
+footer .boxf-uno a{
+    display: block;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+
+.boxf-due{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content:  center;
+}
+
+footer .boxf-due a{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-decoration: underline;
 }
