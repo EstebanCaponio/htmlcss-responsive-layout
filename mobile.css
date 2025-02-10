@@ -7,6 +7,7 @@
     font-family:  'Helvetica Neue', sans-serif;
 }
 
+/* header */
 header{
     padding: 20px;
 }
@@ -21,6 +22,68 @@ h1{
     text-align: center;
 }
 
+/* main */
 main{
     background-color: #f6f5f3;
+    padding: 30px 25px 70px 25px;
+}
+
+.contenuto{
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.categoria h2{
+    font-size: 9px;
+    color: #999999;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.categoria div span{
+    color: #4e3969;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.categoria div span + span{
+    display: none;
+}
+
+.categoria > div{
+    padding-bottom: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.primo-box img{
+    width: 100%;
+    display: block;
+}
+
+.secondo-box{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px 1px #dedede;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.genere{
+    font-weight: lighter;
+}
+
+.spec{
+    font-weight: bold;
 }

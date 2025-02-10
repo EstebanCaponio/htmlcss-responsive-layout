@@ -1,3 +1,17 @@
 @media screen and (min-width: 993px) {
-    
+    .categoria div span{
+        font-size: 2rem;
+    }
+
+    .contenuto{
+        max-width: 1350px;
+    }
+
+    .container{
+        flex-direction: row;
+    }
+
+    .secondo-box ul{
+        display: block;
+    }
 }

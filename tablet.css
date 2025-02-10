@@ -2,4 +2,26 @@
     h1{
         text-align: left;
     }
+
+    main{
+        padding: 60px 60px 110px 60px;
+    }
+
+    .contenuto{
+        max-width: 895px;
+    }
+
+    .categoria div span{
+        font-size: 1.5rem;
+    }
+
+    .categoria div span + span{
+        display: inline;
+    }
+
+    .secondo-box ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 130px;
+    }
 }
